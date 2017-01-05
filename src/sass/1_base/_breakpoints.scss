@@ -1,0 +1,9 @@
+﻿// Breakpoints
+// -----------------------------------------------
+
+// Best practise : (max-width: $BP) and (min-width: ($BP + 1))
+
+$BpMinimum: 984px !default;
+$BpMedium: 1024px !default;
+$BpLarge: 1440px !default;
+$BpExtraLarge: 1530px !default;

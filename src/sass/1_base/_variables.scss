@@ -1,0 +1,67 @@
+
+// Generic Color
+// -----------------------------------------------
+$primaryColor: red;
+$secondaryColor: green;
+$grey100: #f1f1f1;
+$grey200: #cccccc;
+$grey300: #999999;
+$grey400: #848484;
+$grey500: #656565;
+$grey600: #525252;
+
+
+// Specific Color
+// -----------------------------------------------
+    //Base
+    $baseColor: $grey600;
+    $baseBgColor: white;
+
+    //Header
+
+    //Footer
+
+    //Etc...
+
+
+// Font sizes
+// -----------------------------------------------
+$baseFontSize: 1.4rem !default;
+$lineHeight: 1.5 !default; // equiv line-height 1.5
+
+
+// Font stacks
+// -----------------------------------------------
+$fontStackCommon: "Gudea", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+$fontStackHeadings: "Rancho", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+
+
+// Extend/Inheritance
+// -----------------------------------------------
+.btnShadowLv1 {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+.btnShadowLv2 {
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.14), 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnRadius {
+	border-radius: .3rem;
+}
+
+.animateLv1 {
+	transition: all 200ms ease;
+}
+
+.animateLv2 {
+	transition: all 400ms ease;
+}
+
+// Mixins
+// -----------------------------------------------
+
+
+// -----------------------------------------------
+
+
